@@ -1,0 +1,11 @@
+<% include header %>
+        <h1>Conversão</h1>
+        <p class="result">
+            <% if (error){ %>
+                <%= error %>
+            <% }else{ %>
+                Cotação <%= cotacao %> na qtd <%= qtd %> é igual a <%= conversao %>
+            <%}%>
+        </p>
+<% include footer %>
+
