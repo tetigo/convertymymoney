@@ -6,7 +6,7 @@ Incluir rapidamente vagas de trabalho disponíveis.
 Simples programa de conversão. Teste Unitário utilizando Jest.
 
 
-É feito CI/CD entre [GitHub](https://github.com/tetigo/convertmymoney "GitHub") e [Zeit](https://zeit.co/tetigo/convertymymoney "Zeit").
+É feito CI/CD entre [GitHub](https://github.com/tetigo/convertymymoney "GitHub") e [Zeit](https://zeit.co/tetigo/convertymymoney "Zeit").
 
 
 [Link do Site](https://convertymymoney.tetigo.now.sh "Link do Projeto")
