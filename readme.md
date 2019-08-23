@@ -1,4 +1,4 @@
-### [ConvertMyMoney](https://convertmymoney.tetigo.now.sh "Link do Site")
+### [ConvertMyMoney](https://convertymymoney.tetigo.now.sh "Link do Site")
 
 ###### Objetivo
 
@@ -6,10 +6,10 @@ Incluir rapidamente vagas de trabalho disponíveis.
 Simples programa de conversão. Teste Unitário utilizando Jest.
 
 
-É feito CI/CD entre [GitHub](https://github.com/tetigo/convertmymoney "GitHub") e [Zeit](https://zeit.co/tetigo/convertmymoney "Zeit").
+É feito CI/CD entre [GitHub](https://github.com/tetigo/convertmymoney "GitHub") e [Zeit](https://zeit.co/tetigo/convertymymoney "Zeit").
 
 
-[Link do Site](https://convertmymoney.tetigo.now.sh "Link do Projeto")
+[Link do Site](https://convertymymoney.tetigo.now.sh "Link do Projeto")
 
 ------------
 
