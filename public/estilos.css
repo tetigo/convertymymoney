@@ -33,7 +33,7 @@ form input, form button{
 }
 
 .img-responsive{
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
   }
   
