@@ -31,3 +31,9 @@ form input, form button{
     background: #b4bfce;
     border: 1px solid black;
 }
+
+.img-responsive{
+    max-width: 75%;
+    height: auto;
+  }
+  

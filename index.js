@@ -5,13 +5,16 @@ const path = require('path')
 const convert = require('./lib/convert')
 // const  { convert } = require('./lib/convert')
 // const  { toMoney } = require('./lib/convert')
+const apiBC = require('./lib/api-bc')
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname,'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.get('/', (req, res)=>{
-    res.render('home')
+app.get('/', async(req, res)=>{
+    const cotacao = await apiBC.getCotacao()
+    console.log('cotacao', cotacao)
+    res.render('home', {cotacao})
 })
 
 app.get('/cotacao', (req, res)=>{
