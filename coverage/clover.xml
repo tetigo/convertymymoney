@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1567448783548" clover="3.2.0">
-  <project timestamp="1567448783548" name="All files">
+<coverage generated="1567529738866" clover="3.2.0">
+  <project timestamp="1567529738866" name="All files">
     <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="32" coveredelements="32" complexity="0" loc="24" ncloc="24" packages="1" files="2" classes="2"/>
-    <file name="api-bc.js" path="C:\Users\tiago.mendes\Downloads\01.FullstackMaster\Modulo06 - Semana 03\teste\convertymymoney\lib\api-bc.js">
+    <file name="api-bc.js" path="C:\Users\tiago.mendes\Downloads\01.FullstackMaster\Modulo07 - Semana 04\projeto\convertymymoney\lib\api-bc.js">
       <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="1" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -24,7 +24,7 @@
       <line num="31" count="1" type="stmt"/>
       <line num="47" count="1" type="stmt"/>
     </file>
-    <file name="convert.js" path="C:\Users\tiago.mendes\Downloads\01.FullstackMaster\Modulo06 - Semana 03\teste\convertymymoney\lib\convert.js">
+    <file name="convert.js" path="C:\Users\tiago.mendes\Downloads\01.FullstackMaster\Modulo07 - Semana 04\projeto\convertymymoney\lib\convert.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
