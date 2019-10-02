@@ -1,17 +1,13 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-
-const homeController = require('./controllers/home')
-const cotacaoController = require('./controllers/cotacao')
+const routes = require('./routes')
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname,'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
-
-app.get('/', homeController.getHome)
-app.get('/cotacao', cotacaoController.getCotacao)
+app.use(routes())
 
 app.listen(3000, err=>{
     if(err){
@@ -20,3 +16,4 @@ app.listen(3000, err=>{
         console.log('online...')
     }
 })
+
